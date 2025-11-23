@@ -19,4 +19,4 @@ For commercial licensing inquiries, contact: [mr.robotcyber01@gmail.com]
 
 ## ⚠️ Important Notice
 This is a research project. NOT approved for clinical diagnosis.
-Not FDA approved. Not intended for medical decision-making.
+Not FDA approved. Not intended for medical decision-making.     
