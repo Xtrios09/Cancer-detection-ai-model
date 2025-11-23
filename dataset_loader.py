@@ -41,6 +41,15 @@ def load_all_datasets():
     except Exception as e:
         print(f"⚠️ Chest X-ray dataset failed: {e}")
     
+    # Dataser 5: Brain Cancer 
+    try:
+        print("\n Loading Brain CT scan dataset....")
+        brainCT_scan = load_dataset("huseyincavus/Brain_Cancer_MRI_Classsification", name="full")
+        datasets_loaded.append(('brainCT_scan', brainCT_scan))
+        print("Brain scan dataset loaded successfully")
+    except Exception as e:
+        print(f"Brain Cancer dataset failed: {e}")
+        
     # Dataset 4: Colorectal Cancer
     try:
         print("\n📦 Loading Colorectal Cancer dataset...")
